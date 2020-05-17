@@ -7,8 +7,8 @@ var self = {};
 self.insert = function(dataSize,done){
 	var mysql = require('mq-node')({
 		host     : 'localhost',
-		user     : 'root',
-		password : '',
+		user     : 'postgres',
+		password : 'postgres',
 	});
 
 	var run = [];
